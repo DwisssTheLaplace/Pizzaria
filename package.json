@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "types-node": "^0.0.1-security",
+    "typescript": "^5.9.2"
+  }
+}
