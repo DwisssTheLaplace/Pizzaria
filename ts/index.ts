@@ -391,12 +391,12 @@ async function main() {
   while (executando) {
     console.log("\n===== SISTEMA DE PEDIDOS =====");
     console.log("1. Cadastrar novo item no cardápio");
-    console.log("2. Listar cardápio");
+    console.log("2. Cardápio");
     console.log("3. Registrar novo pedido");
     console.log("4. Consultar pedido");
     console.log("5. Atualizar status de um pedido");
     console.log("6. Excluir pedido");
-    console.log("7. Gerar relatório de vendas de pizzas");
+    console.log("7. Relatório");
     console.log("8. Sair");
     const opcao = await ask("Escolha uma opção: ");
     switch (opcao) {
