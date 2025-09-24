@@ -86,7 +86,20 @@ Navegue pelos diretórios até o diretório que guarda o arquivo typescript e tr
 
 `tsc nomedoarquivo.ts`
 
-Para o arquivo transpilado (javascript) rode:
+Para executar o arquivo transpilado (javascript) utilize:
 
 `node nomedoarquivo.js`
 
+---
+
+# Uso (menu de console)
+
+1. **Cadastrar novo item no cardápio** -> informe nome, descrição, preço, categoria (Pizza, bebida, sobremesa ou outro) do item, pela ordem solicitada no terminal. Armazena os itens em `js/Banco de Dados/cardapio.csv`.
+2. **Listar cardápio** -> Imprime no terminal todo o cardápio desde que existe pelo menos um item.
+3. **Registrar novo pedido** -> Informe nome do cliente, id do item no cardápio e quantidade. Armazena essa informação em `js/Banco de Dados/cardapio.csv`.
+4. **Consultar pedido** -> Imprime no terminal IDs de pedidos (criados automaticamente a partir do registro de um novo pedido), informe um ID para ver mais detalhes de um pedido.
+5. **Atualizar status de um pedido** -> Informe um ID de pedido e a condição atual do pedido pelo o que é requerido pelo terminal.
+6. **Excluir Pedido** -> Informe um ID de pedido e confirme para cancelar um pedido registrado.
+7. **Relatório** -> Imprime no terminal relatórios de vendas diárias e mensais de pizzas.
+
+---
