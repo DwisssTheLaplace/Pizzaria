@@ -30,4 +30,10 @@ Projeto-Typescript/
 * `js/Banco de Dados/cardapio.csv` → `id,nome,descricao,preco,categoria,disponivel` | Registra o cardapio de forma facilmente expansível
 * `js/Banco de Dados/pedidos.csv`  → `id,nomeCliente,itens,total,status,data`       | Registra detalhes de pedidos
 
+## Pré-Requisitos
+
+* **Node.js 16+** (recomendado 18 ou 20)
+* **npm**
+
+---
 
