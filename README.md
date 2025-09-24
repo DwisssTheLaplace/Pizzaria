@@ -5,7 +5,7 @@ Aplicativo **CLI** (linha de comando) para gerenciar em **relatórios de vendas 
 
 ## Recursos
 * **Cadastrar novo item no cardápio** - Cadastra um item novo no cardápio.
-* **Listar Cardápio** - Lista o cardápio atual.
+* **Cardápio** - Lista o cardápio atual.
 * **Registrar novo pedido** - Cadastra um pedido de um cliente.
 * **Armazenamento** - `js/Banco de Dados/cardapio.csv` + `js/Banco de Dados/pedidos.csv`.
 * **Consultar Pedido** - Permite a visualização de pedidos ativos (não concluídos) e a opção de saber mais detalhes de um pedido.
@@ -18,10 +18,11 @@ Aplicativo **CLI** (linha de comando) para gerenciar em **relatórios de vendas 
 ## Estrutura de pastas
 
 ```
-Projeto-Typescript/
+Pizzaria/
 ├─ js                 # arquivos .js gerados pelo TypeScript
     ├─ Banco de Dados # base de dados csv (cardapios e pedidos)
 ├─ ts                 # código-fonte .ts
+├─ node_modules
 ├─ package-lock.json
 ├─ package.json
 ├─ tsconfig.json
@@ -33,7 +34,7 @@ Projeto-Typescript/
 
 ## Pré-Requisitos
 
-8 **TypeScript** (recomendado a versão 5.9.2)
+* **TypeScript** (recomendado a versão 5.9.2)
 * **Node.js 16+** (recomendado 18 ou 20)
 * **npm**
 
@@ -96,7 +97,7 @@ Para executar o arquivo transpilado (javascript) utilize:
 # Uso (menu de console)
 
 1. **Cadastrar novo item no cardápio** -> informe nome, descrição, preço, categoria (Pizza, bebida, sobremesa ou outro) do item, pela ordem solicitada no terminal. Armazena os itens em `js/Banco de Dados/cardapio.csv`.
-2. **Listar cardápio** -> Imprime no terminal todo o cardápio desde que existe pelo menos um item.
+2. **Cardápio** -> Imprime no terminal todo o cardápio desde que existe pelo menos um item.
 3. **Registrar novo pedido** -> Informe nome do cliente, id do item no cardápio e quantidade. Armazena essa informação em `js/Banco de Dados/cardapio.csv`.
 4. **Consultar pedido** -> Imprime no terminal IDs de pedidos (criados automaticamente a partir do registro de um novo pedido), informe um ID para ver mais detalhes de um pedido.
 5. **Atualizar status de um pedido** -> Informe um ID de pedido e a condição atual do pedido pelo o que é requerido pelo terminal.
