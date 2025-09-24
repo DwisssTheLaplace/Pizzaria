@@ -132,8 +132,8 @@ Para reiniciar apenas o registro dos pedidos utilize:
 ---
 # Representação Visual dos Diretórios
 
-https://github.com/DwisssTheLaplace/Pizzaria/issues/1#issue-3447762207
+<img width="390" height="287" alt="Image" src="https://github.com/user-attachments/assets/bb55a878-3704-431e-9da9-c4ea69f38f7e" />
 
 # Representação Visual do Funcionamento do Menu
 
-https://github.com/DwisssTheLaplace/Pizzaria/issues/2#issue-3447762892
+<img width="629" height="564" alt="Image" src="https://github.com/user-attachments/assets/32c91650-101a-448d-82e3-48dda404c3d2" />
