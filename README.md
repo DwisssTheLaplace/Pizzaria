@@ -4,9 +4,10 @@ Aplicativo **CLI** (linha de comando) para gerenciar em **relatórios de vendas 
 ---
 
 ## Recursos
-* **Cadastrar novo item no cardápio** - Cadastra um item pelo: nome, descrição, preço, categoria (Pizza, bebida, sobremesa ou outro).
+* **Cadastrar novo item no cardápio** - Cadastra um item novo no cardápio.
 * **Listar Cardápio** - Lista o cardápio atual.
-* **Registrar novo pedido** - Cadastra um pedido pelo nome do cliente e ID(s) dos itens. Além disso gera um recibo em csv com essas informações, status do pedido e o horário atual.
+* **Registrar novo pedido** - Cadastra um pedido de um cliente.
+* **Armazenamento** - `js/Banco de Dados/cardapio.csv` + `js/Banco de Dados/pedidos.csv`.
 * **Consultar Pedido** - Permite a visualização de pedidos ativos (não concluídos) e a opção de saber mais detalhes de um pedido.
 * **Atualizar status de um pedido** - Atualiza os status de um pedido para "Em preparação", "Sendo entregue" ou "Concluído".
 * **Excluir Pedido** - Cancela um pedido não concluído pelo ID do pedido.
@@ -103,3 +104,26 @@ Para executar o arquivo transpilado (javascript) utilize:
 7. **Relatório** -> Imprime no terminal relatórios de vendas diárias e mensais de pizzas.
 
 ---
+
+# Campos e Formatos
+
+* **Datas**: ISO (ex: 2023-10-27T10:30:00Z).
+* **preços de itens no cardápio**: número decimal (ex: 14.99).
+* **Item em um Pedido**: É armazenado em `pedidos.csv` de formato em que A:B, aonde A é o id do item dentro do cardápio e B a quantidade desse item requisitada pelo cliente.
+
+---
+
+# Limpeza / Reset
+Para reiniciar todos os dados utilize:
+
+`rm -rf "js/Banco de Dados"`
+
+Para reiniciar apenas o cardápio utilize:
+
+`rm "js/Banco de Dados/cardapio.csv"`
+
+Para reiniciar apenas o registro dos pedidos utilize:
+
+`rm js/Banco de Dados/pedidos.csv"`
+
+> Utilize na raiz do projeto, também é possível remover manualmente navegando pelas pastas. Após exclusão de algum dos itens, eles serão criados novamente conforme sua necessidade ao utilizar o sistema.
