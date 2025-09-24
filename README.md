@@ -37,3 +37,42 @@ Projeto-Typescript/
 
 ---
 
+## Instalação
+
+Na **raiz** do projeto (onde está o `tsconfig.json`, `package.json`):
+
+```bash
+npm i -D typescript ts-node @types/node
+```
+
+Crie (ou configure) os scripts no **package.json**:
+
+```json
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node js/index.js",
+    "dev": "ts-node ts/index.ts"
+  }
+}
+```
+
+`tsconfig.json` mínimo recomendado:
+
+```json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "rootDir": "./ts",
+    "outDir": "./js",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "lib": ["ES2020"]
+  },
+  "include": ["ts/**/*"]
+}
+```
