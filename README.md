@@ -11,3 +11,23 @@ Aplicativo **CLI** (linha de comando) para gerenciar em **relatórios de vendas 
 * **Atualizar status de um pedido** - Atualiza os status de um pedido para "Em preparação", "Sendo entregue" ou "Concluído".
 * **Excluir Pedido** - Cancela um pedido não concluído pelo ID do pedido.
 * **Relatório** - Gera um relatório sobre a venda diária e mensal de pizzas.
+
+---
+
+## Estrutura de pastas
+
+```
+Projeto-Typescript/
+├─ js                 # arquivos .js gerados pelo TypeScript
+    ├─ Banco de Dados # base de dados csv (cardapios e pedidos)
+├─ ts                 # código-fonte .ts
+├─ package-lock.json
+├─ package.json
+├─ tsconfig.json
+```
+
+## Arquivos CSV gerados
+* `js/Banco de Dados/cardapio.csv` → `id,nome,descricao,preco,categoria,disponivel` | Registra o cardapio de forma facilmente expansível
+* `js/Banco de Dados/pedidos.csv`  → `id,nomeCliente,itens,total,status,data`       | Registra detalhes de pedidos
+
+
