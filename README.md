@@ -128,3 +128,12 @@ Para reiniciar apenas o registro dos pedidos utilize:
 `rm js/Banco de Dados/pedidos.csv"`
 
 > Utilize na raiz do projeto, também é possível remover manualmente navegando pelas pastas. Após exclusão de algum dos itens, eles serão criados novamente conforme sua necessidade ao utilizar o sistema.
+
+---
+# Representação Visual dos Diretórios
+
+https://github.com/DwisssTheLaplace/Pizzaria/issues/1#issue-3447762207
+
+# Representação Visual do Funcionamento do Menu
+
+https://github.com/DwisssTheLaplace/Pizzaria/issues/2#issue-3447762892
