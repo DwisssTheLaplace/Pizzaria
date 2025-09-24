@@ -32,6 +32,7 @@ Projeto-Typescript/
 
 ## Pré-Requisitos
 
+8 **TypeScript** (recomendado a versão 5.9.2)
 * **Node.js 16+** (recomendado 18 ou 20)
 * **npm**
 
@@ -76,3 +77,16 @@ Crie (ou configure) os scripts no **package.json**:
   "include": ["ts/**/*"]
 }
 ```
+
+---
+
+## Como executar
+
+Navegue pelos diretórios até o diretório que guarda o arquivo typescript e transpile para javascript com:
+
+`tsc nomedoarquivo.ts`
+
+Para o arquivo transpilado (javascript) rode:
+
+`node nomedoarquivo.js`
+
