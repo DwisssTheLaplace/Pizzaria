@@ -3,6 +3,18 @@ Aplicativo **CLI** (linha de comando) para gerenciar em **relatórios de vendas 
 
 ---
 
+## Sobre nós
+Somos a Type&Dough um grupo formado na faculdade UniAnchieta para a realização de um trabalho na matéria **Programação em Typescript** dirigida pelo professor **Eduardo Popovici**.
+## Quem somos nós:
+# ##Eduardo Fernando de Almeida Loschi##
+  ##RA: 2509964##
+  ##Email: eduardofernandodealmeidaloschi@gmail.com##
+# ##João Vitor Quirino Ramos##
+  ##RA: 2526428##
+  ##Email: joao.quirino21@hotmail.com##
+  
+---
+
 ## Recursos
 * **Cadastrar novo item no cardápio** - Cadastra um item novo no cardápio.
 * **Cardápio** - Lista o cardápio atual.
