@@ -120,7 +120,7 @@ Para executar o arquivo transpilado (javascript) utilize:
 # Campos e Formatos
 
 * **Datas**: ISO (ex: 2023-10-27T10:30:00Z).
-* **preços de itens no cardápio**: número decimal (ex: 14.99).
+* **preços de itens no cardápio**: exibido em **Real Brasileiro (BRL)**, no padrão `R$ 0,00`.
 * **Item em um Pedido**: É armazenado em `pedidos.csv` de formato em que A:B, aonde A é o id do item dentro do cardápio e B a quantidade desse item requisitada pelo cliente.
 
 ---
