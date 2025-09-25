@@ -70,7 +70,7 @@ async function carregarCardapio(): Promise<ItemCardapio[]> {
   try {
     const dadosDoArquivo = await fs.readFile(cardapioPath, 'utf-8');
     const linhas = dadosDoArquivo.trim().split('\n').slice(1); // Ignora o cabeçalho
-    if (linhas.length === 0) return [];
+    if (linhas.length === 0) return []; // retorna um array vazio se não tiver itens no cardápio
 
     return linhas.map(linha => {
       // Expressão regular para separar colunas, lidando com texto entre aspas
