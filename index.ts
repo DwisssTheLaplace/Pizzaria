@@ -14,7 +14,7 @@ function ask(q: string): Promise<string> {
 // --------- ESTRUTURAS E ARQUIVOS DE DADOS ---------------------
 // =================================================================
 
-// Tipo para as categorias padronizadas de itens
+// Tipos para as categorias dos itens no cardápio.
 type CategoriaItem = 'Pizza' | 'Bebida' | 'Sobremesa' | 'Outros';
 
 // Tipos para os itens do cardápio.
