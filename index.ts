@@ -14,10 +14,10 @@ function ask(q: string): Promise<string> {
 // --------- ESTRUTURAS E ARQUIVOS DE DADOS ---------------------
 // =================================================================
 
-// Tipos para as categorias dos itens no cardápio.
+// Tipos para as categorias dos itens no cardápio
 type CategoriaItem = 'Pizza' | 'Bebida' | 'Sobremesa' | 'Outros';
 
-// Tipos para os itens do cardápio.
+// Tipos para os itens do cardápio
 type ItemCardapio = {
     id : number;
     nome: string;
@@ -27,7 +27,7 @@ type ItemCardapio = {
     disponivel: boolean;
 }
 
-// Tipo para a formação dos itens de um pedido
+// Tipo para a inserção de itens em um pedido
 type ItemPedido = {
   item: ItemCardapio;
   quantidade: number;
@@ -36,7 +36,7 @@ type ItemPedido = {
 // Tipo para os status de um pedido
 type StatusPedido = 'Recebido' | 'Em preparação' | 'Sendo Entregue' | 'Concluído';
 
-// Tipo para formar um pedido completo
+// Tipo para fazer um pedido formalizado
 type Pedido = {
   id: number;
   nomeCliente: string;
