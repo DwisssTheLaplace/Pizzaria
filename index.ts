@@ -81,7 +81,7 @@ async function carregarCardapio(): Promise<ItemCardapio[]> {
       };
     });
   } catch (error) {
-    return []; // Retorna um array vazio se o arquivo não existir
+    return []; // retorna um array vazio se o arquivo não existir
   }
 }
 
