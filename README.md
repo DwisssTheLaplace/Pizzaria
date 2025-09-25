@@ -32,10 +32,9 @@ Somos a Type&Dough um grupo formado na faculdade UniAnchieta para a realização
 ```
 Pizzaria/
 ├─ js                 # arquivos .js gerados pelo TypeScript
-    ├─ Banco de Dados # base de dados csv (cardapios e pedidos)
+    ├─ Banco de Dados # base de dados csv (cardapios e pedidos) - Gerado pelo script
 ├─ ts                 # código-fonte .ts
-├─ node_modules
-├─ package-lock.json
+├─ node_modules       # gerado no processo de instalação
 ├─ package.json
 ├─ tsconfig.json
 ```
